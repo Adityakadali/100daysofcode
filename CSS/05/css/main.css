@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background: #CAD5E2;
+}
+
+nav > .container {
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.branding > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    letter-spacing: 4px;
+    color: #0D0D0D;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item{
+    margin: 0 15px;
+}
+
+.nav-list > .nav-item > a {
+    text-decoration: none;
+    color: #0D0D0D;
+}
+
+.nav-icons > i {
+    margin: 0 10px;
+    color: #0D0D0D;
+}
+
+.nav-icons > i:hover {
+    cursor: pointer;
+}
