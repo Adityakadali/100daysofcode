@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0px;
+    border: 1px solid red;
+}
+body {
+    background-color: bisque;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+form {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+input {
+    margin: 0px;    
+    padding: 2px;
+}
+.flex-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.email {
+    width: 100%;
+}
+
+
+.btn {
+    width: 100%;
+}

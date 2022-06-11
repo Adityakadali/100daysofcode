@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-title{
+    margin: 20px 0;
+}
+
+input, button {
+    border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
