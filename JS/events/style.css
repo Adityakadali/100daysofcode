@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background-color: #242b2e;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.block {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: #cad5e2;
+}
+
+.red {
+  background: #ff6263;
+}
+
+.blue {
+  background: #1b98f5;
+}
+
+.green {
+  background: #1faa59;
+}
+
+.yellow {
+  background: #e8bd0d;
+}
