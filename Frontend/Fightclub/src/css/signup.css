@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.form-flex {
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin: 1em auto;
+}
+
+.sign-up input {
+  display: block;
+  border: 2px solid #ea638c;
+  background-color: #f2f7f2;
+  border-radius: 5px;
+  height: 2em;
+  width: 100%;
+  padding: 1em;
+}
+
+.sign-up input:focus {
+  border: 2px solid #ea638c !important;
+  background-color: #f2f7f2;
+  border-radius: 5px;
+  box-shadow: none;
+}

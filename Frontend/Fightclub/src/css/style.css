@@ -1,6 +1,5 @@
 /* colocr pallete */
 /* https://coolors.co/1b2021-ea638c-f2f7f2-508ca4-0e7c7b */
-
 /* custom fonts */
 @font-face {
   font-family: "Fight Face";
@@ -13,11 +12,16 @@
 * {
   margin: 0;
   padding: 0;
+  outline: 0;
   box-sizing: border-box;
 }
 /* utitlity classes */
 .mb-1 {
   margin-bottom: 1em;
+}
+
+.mt-1 {
+  margin-top: 1em;
 }
 
 .nav-container {
@@ -30,6 +34,10 @@
   justify-content: space-between;
   width: 80vw;
   margin: 0 auto;
+}
+
+.fight-image {
+  border-radius: 10px;
 }
 
 body {
@@ -52,7 +60,7 @@ body {
 
 .btn-soap {
   background: #ea638c;
-  color: #fff;
+  color: #f2f7f2;
   border: none;
   padding: 0.2em 0.5em;
   font-size: 1em;
