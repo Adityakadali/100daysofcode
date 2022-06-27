@@ -5,6 +5,7 @@
 .form-flex {
   display: flex;
   gap: 1em;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -30,4 +31,18 @@
   background-color: #f2f7f2;
   border-radius: 5px;
   box-shadow: none;
+}
+
+input[type="radio"] {
+  color: #ea638c;
+  background-color: #f2f7f2;
+}
+
+label {
+  color: #f2f7f2;
+}
+
+.gender {
+  display: flex;
+  justify-content: flex-start;
 }
