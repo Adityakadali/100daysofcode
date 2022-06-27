@@ -15,6 +15,13 @@
   outline: 0;
   box-sizing: border-box;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* utitlity classes */
 .mb-1 {
   margin-bottom: 1em;
