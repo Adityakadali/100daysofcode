@@ -8,9 +8,8 @@ async function joke() {
       //   console.log(joke);
       return joke;
     })
-    .then((joke)=> {
-      document.querySelector('.temp').innerHTML = joke;
-
+    .then((joke) => {
+      document.querySelector(".temp").innerHTML = joke;
     });
 }
 joke();
