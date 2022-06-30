@@ -7,3 +7,4 @@
 1. Home page with all episodes
 1. sub pages with episode details
 1. Needs Card UI
+1. Build on top of the api
