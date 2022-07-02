@@ -25,3 +25,24 @@
   border-radius: 20px;
   padding: 1em;
 }
+
+form {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1em;
+  margin: 1em 2em 0 2em;
+}
+
+form .form-data {
+  grid-column: 1 / 9;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 2px solid black;
+
+}
+
+form button {
+  grid-column: 9 / 13;
+  border-radius: 0.5em;
+  border: 2px solid black;
+}
