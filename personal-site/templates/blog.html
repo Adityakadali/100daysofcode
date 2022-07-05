@@ -6,9 +6,9 @@
 </h1>
 <ul>
     {% for page in section.pages %}
+    <!-- hr -->
     <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
     {% endfor %}
 </ul>
-
 
 {% endblock content%}
