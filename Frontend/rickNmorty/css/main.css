@@ -13,3 +13,13 @@
   outline: 0;
   box-sizing: border-box;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+}

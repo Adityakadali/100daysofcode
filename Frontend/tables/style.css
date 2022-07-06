@@ -1,0 +1,21 @@
+* {
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+  text-align: center;
+  padding: 0.5em;
+  border: 1px solid black;
+
+}
+
+td {
+  text-align: center;
+  padding: 0.5em;
+  border: 1px solid black;
+}
