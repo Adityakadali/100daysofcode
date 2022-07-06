@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 1em;
+    padding: 1em;
+}
+
+div {
+    height: 200px;
+    grid-column: span 3;
+    border: 1px solid black;
+    background-color: yellow;
+    transition: 250ms ease;
+}
+
+div:hover {
+    transform: translate(4px, -4px);
+    box-shadow: -8px 8px 0 navy;
+}
