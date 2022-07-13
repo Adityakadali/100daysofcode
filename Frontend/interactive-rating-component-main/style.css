@@ -7,8 +7,8 @@
   /* neutral colors */
   --neutral-white: hsl(0, 0%, 100%);
   --neutral-light-grey: hsl(217, 12%, 63%);
-  --neutral-medium-grey: #39434d;
-  --nuetral-dark-blue: hsl(213, 19%, 18%);
+  --neutral-medium-grey: hsl(219, 27%, 25%);
+  --nuetral-dark-blue: hsl(212, 23%, 22%);
   --nuetral-very-dark-blue: hsl(216, 12%, 8%);
 }
 
