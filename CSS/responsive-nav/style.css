@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 2rem;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+nav input {
+  display: none;
+}
+
+@media (max-width: 450px) {
+  nav ul {
+    display: none;
+    transition: ease 1s;
+  }
+
+  nav input:checked ~ ul {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  nav li {
+    display: block;
+  }
+}
